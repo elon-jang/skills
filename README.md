@@ -108,6 +108,20 @@ python youtube/discord-sender/scripts/send_message.py "메시지 내용"
 
 ---
 
+## 스킬 생성 프롬프트
+
+각 스킬을 처음부터 직접 만들고 싶다면 아래 프롬프트를 참고하세요. 프롬프트를 Claude Code에 입력하면 해당 스킬을 자동으로 생성할 수 있습니다.
+
+### 📝 URL Shortener
+**프롬프트 파일:** [url-shortener/skill-creation-prompt.md](./url-shortener/skill-creation-prompt.md)
+
+텍스트 내 모든 URL을 Bitly API로 자동 단축하는 스킬을 생성하는 프롬프트입니다. 핵심 요구사항과 기대 동작만 명시하고, 구현 세부사항은 Claude에게 위임하는 방식으로 작성되었습니다.
+
+### 🎥 YouTube 관련 스킬 (예정)
+YouTube 워크플로우 스킬들의 생성 프롬프트도 순차적으로 추가될 예정입니다.
+
+---
+
 ## 설치 및 설정
 
 ### 1. 스킬 디렉토리 구조
