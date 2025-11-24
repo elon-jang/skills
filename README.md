@@ -115,10 +115,29 @@ python youtube/discord-sender/scripts/send_message.py "메시지 내용"
 ### 📝 URL Shortener
 **프롬프트 파일:** [url-shortener/skill-creation-prompt.md](./url-shortener/skill-creation-prompt.md)
 
-텍스트 내 모든 URL을 Bitly API로 자동 단축하는 스킬을 생성하는 프롬프트입니다. 핵심 요구사항과 기대 동작만 명시하고, 구현 세부사항은 Claude에게 위임하는 방식으로 작성되었습니다.
+텍스트 내 모든 URL을 Bitly API로 자동 단축하는 스킬을 생성하는 프롬프트입니다.
 
-### 🎥 YouTube 관련 스킬 (예정)
-YouTube 워크플로우 스킬들의 생성 프롬프트도 순차적으로 추가될 예정입니다.
+### 🎥 YouTube 관련 스킬
+
+#### YouTube Subtitle Extractor
+**프롬프트 파일:** [youtube/youtube-subtitle-extractor/skill-creation-prompt.md](./youtube/youtube-subtitle-extractor/skill-creation-prompt.md)
+
+YouTube 영상의 자막과 메타데이터를 JSON 형식으로 추출하는 스킬 생성 프롬프트입니다. youtube-transcript-api 및 Apify API 사용 방법을 포함합니다.
+
+#### YouTube Summarizer
+**프롬프트 파일:** [youtube/youtube-summarizer/skill-creation-prompt.md](./youtube/youtube-summarizer/skill-creation-prompt.md)
+
+YouTube 자막을 Claude API로 교육용 구조화 요약으로 변환하는 완전 자동화 스킬 생성 프롬프트입니다. 구간별 요약, 인사이트 분석, 탐구 질문 생성 기능을 포함합니다.
+
+#### YouTube Video Info
+**프롬프트 파일:** [youtube/youtube-video-info/skill-creation-prompt.md](./youtube/youtube-video-info/skill-creation-prompt.md)
+
+YouTube Data API v3를 사용하여 영상의 상세 정보(조회수, 좋아요, 채널 정보 등)를 조회하는 스킬 생성 프롬프트입니다.
+
+#### Discord Sender
+**프롬프트 파일:** [youtube/discord-sender/skill-creation-prompt.md](./youtube/discord-sender/skill-creation-prompt.md)
+
+Discord Bot API를 통해 메시지를 전송하는 스킬 생성 프롬프트입니다. YouTube 워크플로우 결과를 팀 채널에 자동 공유할 때 사용합니다.
 
 ---
 
