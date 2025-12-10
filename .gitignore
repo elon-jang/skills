@@ -56,3 +56,6 @@ tmp/
 # Logs
 *.log
 logs/
+
+# Incomplete features
+product-image-extractor/

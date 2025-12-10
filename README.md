@@ -11,14 +11,6 @@ Bitly API로 텍스트 내 모든 URL을 자동 단축하는 스킬입니다.
 - HTTP/HTTPS URL 자동 감지 및 단축
 - 원본 텍스트 포맷 유지
 
-### 🖼️ [Product Image Extractor](./product-image-extractor/README.md)
-
-웹페이지에서 실제 상품 이미지만 정확하게 추출하는 스킬입니다.
-
-- curl 모드 (빠른 속도) / Playwright 모드 (봇 차단 우회)
-- 배경 이미지, 배너, 로고 자동 필터링
-- 메타 태그 폴백 지원
-
 ### 🎥 YouTube 워크플로우 스킬
 
 YouTube 영상 자막 추출부터 AI 요약, Discord 공유까지 완전 자동화된 통합 워크플로우를 제공합니다.
@@ -62,7 +54,6 @@ pip install requests python-dotenv youtube-transcript-api anthropic
 
 # Claude Code에 스킬 등록 (심볼릭 링크)
 ln -s ~/path/to/ai/skills/url-shortener ~/.claude/skills/url-shortener
-ln -s ~/path/to/ai/skills/product-image-extractor ~/.claude/skills/product-image-extractor
 ln -s ~/path/to/ai/skills/youtube/youtube-subtitle-extractor ~/.claude/skills/youtube-subtitle-extractor
 ln -s ~/path/to/ai/skills/youtube/youtube-summarizer ~/.claude/skills/youtube-summarizer
 ln -s ~/path/to/ai/skills/youtube/youtube-video-info ~/.claude/skills/youtube-video-info
