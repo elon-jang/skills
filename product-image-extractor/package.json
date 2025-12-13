@@ -1,0 +1,31 @@
+{
+  "name": "product-image-extractor-skill",
+  "version": "3.0.0",
+  "description": "Claude Skill for accurately extracting product images from e-commerce websites with automatic site detection",
+  "main": "index.js",
+  "scripts": {
+    "extract": "node index.js",
+    "extract-curl": "node extract-images.js",
+    "extract-pw": "node extract-images-playwright.js",
+    "test": "node index.js \"https://www.chanel.com/us/fragrance/p/136008/chance-eau-splendide-limited-edition-eau-de-parfum-spray/\"",
+    "test-ugg": "node index.js \"https://www.ugg.com/women-slippers/disquette/1122550.html?dwvar_1122550_color=DNY\""
+  },
+  "keywords": [
+    "claude",
+    "skill",
+    "product",
+    "images",
+    "scraping",
+    "e-commerce",
+    "curl",
+    "image-extraction"
+  ],
+  "author": "Claude Code",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.57.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
